@@ -1,0 +1,10 @@
+_psd/
+_jpg/
+js/
+img/
+fonts/
+node_modules/
+index.html
+.DS_Store
+Thumbs.db
+*.sublime*
