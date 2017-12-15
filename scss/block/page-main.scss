@@ -1,0 +1,41 @@
+.page-main {
+	&__wrap {
+		margin: 0 auto;
+		&--gallery {
+			margin: 0;
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.page-main {
+		&__wrap {
+			max-width: 370px;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.page-main {
+		&__wrap {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+
+			&--gallery {
+				font-size: 0;
+				justify-content: center;
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.page-main {
+		&__wrap {
+			&--advantages {
+				width: 1170px;		
+			}	
+		}		
+	}
+}
